@@ -21,10 +21,15 @@ public class smallestAndLargestElement {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+ 
+ 
+ 
         smallAndLarge(arr);
         int[]ans = Array(arr);
         System.out.println(Array(arr));
         System.out.println(Arrays.toString(ans));
+        
+    sc.close();
         
         
     }

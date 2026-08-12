@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class sortedArray {
     static boolean isSorted(int[]arr){
         boolean check = true;

@@ -16,7 +16,7 @@ public class strictlyGreaterno {
         int x = sc.nextInt();
 
         System.out.println("number of elements greater than "+x+ " is : "+strictlygrtr(arr, x));
-        
+        sc.close();
     }
 
 }

@@ -15,5 +15,6 @@ public class lastOccurrence {
         System.out.println("Enter the value of x :");
         int x = sc.nextInt();
         System.out.println("Last occurrence of "+x+" is :"+lastOccur(arr1, x));
+        sc.close();
     }
 }

@@ -21,7 +21,7 @@ public class noOfOccurrence {
         int x = sc.nextInt();
 
         System.out.println("Count of x:" +countOfOccurrence(arr, x));
-
+    sc.close();
 
 
         }

@@ -25,7 +25,7 @@ public class queries {
         int q = sc.nextInt();
 
         while(q-- > 0){
-            System.out.println("Enter the range :");
+            System.out.println("Enter the range : ");
             int l = sc.nextInt();
             int r = sc.nextInt();
 

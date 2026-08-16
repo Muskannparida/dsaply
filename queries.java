@@ -33,6 +33,7 @@ public class queries {
             System.out.println("Sum is :"+ans);
 
             sc.close();
+            
         }
 
 

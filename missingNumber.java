@@ -2,7 +2,7 @@
 public class missingNumber {
    
 
-    private static int missingNumber(int arr[])
+    private static int findMissingNumber(int[]arr)
     {
         Arrays.sort(arr);
         int smallest = 1;
@@ -18,7 +18,7 @@ public class missingNumber {
     }
     public static void main(String[] args) {
         int []arr=new int[]{2, -3, 4, 1, 1, 7};
-        System.out.println(missingNumber(arr));
+        System.out.println(findMissingNumber(arr));
     }
     
 

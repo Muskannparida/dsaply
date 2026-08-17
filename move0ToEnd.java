@@ -19,7 +19,9 @@ public class move0ToEnd {
 
     public static void main(String[] args) {
         int[] arr = {0, 0, 0, 9, 0};
+        System.out.println("after pushing 0s to end :");
         pushZerosToEnd(arr);
 
 }
 }
+

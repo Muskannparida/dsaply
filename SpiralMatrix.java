@@ -59,6 +59,7 @@ public class SpiralMatrix {
             int[][]a = new int[r][c];
 
             int totalElements = r*c;
+            System.out.println("totalElement : "+totalElements);
 
             System.out.println("Enter "+totalElements+" values .");
             for(int i = 0; i<r;i++){

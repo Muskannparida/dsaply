@@ -19,6 +19,7 @@ public class pascalTriangle {
         for(int j = 1;j<i;j++){
             p[i][j] = p[i-1][j] +p[i-1][j-1];
         }
+    
         }
 
 

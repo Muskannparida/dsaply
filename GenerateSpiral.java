@@ -9,6 +9,7 @@ public class GenerateSpiral {
         }
     }
 
+
     static int[][] generateSpiralMatrix(int n){
         int[][]ans = new int[n][n];
         int topRow = 0;

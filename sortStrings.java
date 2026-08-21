@@ -12,7 +12,7 @@ public class sortStrings {
         s1.add("manvi");
         System.out.println("Original list :"+s1);
         sortArrayList(s1);
-        System.out.println("Sorted Array : "+s1);
+        System.out.println("Sorted Array : ");
          
    
     }

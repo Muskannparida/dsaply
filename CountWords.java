@@ -4,12 +4,12 @@ public class CountWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String str = sc.nextLine();
+        String strg = sc.nextLine();
 
-        if (str.trim().isEmpty()) {
+        if (strg.trim().isEmpty()) {
             System.out.println(0);
         } else {
-            String[] words = str.trim().split("\\s+");
+            String[] words = strg.trim().split("\\s+");
             System.out.println(words.length);
         }
         sc.close();
